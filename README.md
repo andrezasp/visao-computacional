@@ -18,6 +18,8 @@ Repositório para o código e documentação do projeto da disciplina MAC5768 - 
 
 A base de dados criada para o EP1 está disponível na pasta do Google Drive. O notebook com a tabela sumarizada e visualização da base está disponível tanto na pasta [ep1](ep1/) como no link do Google Colab exibido na seção de **Links Importantes**.
 
+Para executar o notebook visao_computacional_ep1.ipynb, basta rodar as células na ordem. A função plot_mnist requer entrada True (padrão) ou False. True mostra a classe desejada. False, todas as classes.
+
 # EP2
 
 TBD
