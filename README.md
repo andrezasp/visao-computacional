@@ -10,9 +10,9 @@ Repositório para o código e documentação do projeto da disciplina MAC5768 - 
 
 # Grupo
 
-* **Andreza Lukosiunas** - [@andrezasp](https://github.com/andrezasp)(nusp: 7157922)
-* **Juliano Garcia** - [@robotenique](https://github.com/robotenique)(nusp: 9277086)
-* **Pedro Carvalho** - [@pHrfo](https://github.com/pHrfo)(nusp: 11376164)
+* **Andreza Lukosiunas** - [@andrezasp](https://github.com/andrezasp) (nusp: 7157922)
+* **Juliano Garcia** - [@robotenique](https://github.com/robotenique) (nusp: 9277086)
+* **Pedro Carvalho** - [@pHrfo](https://github.com/pHrfo) (nusp: 11376164)
 
 # EP1
 
