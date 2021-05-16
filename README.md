@@ -20,7 +20,7 @@ A base de dados criada para o EP1 está disponível na pasta do Google Drive. O 
 
 Para executar o notebook visao_computacional_ep1.ipynb, basta rodar as células na ordem. A função plot_mnist requer entrada True (padrão) ou False. True mostra a classe desejada. False, todas as classes.
 
-O metadados.csv com todos as especificações da imagem está na pasta metadados do google drive.
+O metadados.csv com todos as especificações das imagems está na pasta metadados do google drive.
 
 # EP2
 
