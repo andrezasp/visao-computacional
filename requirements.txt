@@ -1,0 +1,16 @@
+google==2.0.3
+google.colab==1.0.0
+os
+matplotlib==3.2.2
+pandas==1.1.5
+numpy==1.19.5
+itertools
+PIL
+skimage
+cv2
+tqdm==4.41.1
+shutil
+pathlib==1.0.1
+glob
+collections
+math
