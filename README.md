@@ -24,7 +24,20 @@ O metadados.csv com todos as especificações das imagems está na pasta metadad
 
 # EP2
 
-TBD
+O EP2 consiste em 2 notebooks, a parte 1 e a parte 2.
+
+### Parte 1
+Nas primeiras células, as funções para geração das imagens que serão salvas nos folders originalGrayDataset, augmentedDataSet e normalizedDataset são declaradas. Em seguida, o metadados do EP1 é carregado. 
+A descrição das funções segue abaixo. 
+OBS.: run_all = True, roda todas as 3 funções da célula, caso run_all = False, não roda, esse declaração serve como uma trava. Para rodar determinada função, run=True, cc, run=False
+* new_folder - deleta os folders originalGrayDataset, augmentedDataSet e normalizedDataset, caso existam, para criação de novos
+* create_img_filtered - cria todas as imagens para o originalGrayDataset e augmentedDataSet, essas imagens são filtradas com os métodos: rgb2gray, soma de fundo com gradiente em níveis de cinza, logaritmo da imagem, exponencial da imagem e filtro da média com convolução. Essa funçao também cria os metadados metadados_originalGrayDataset e metadados_augmentedDataset e salva-os em .csv
+* create_img_normalized - cria todas as imagens para o normalizedDataset provenientes do folder augmentedDataSet com o método de equalização. Essa funçao também cria o metadados metadados_normalizedDataset e salva-os em .csv
+Logo após a criação das imagens, os novos metadados são carregados e cruzados com o metadados principal (EP1). 
+A célula final contém os plots das imagens filtradas.
+
+
+
 
 # EP3
 
