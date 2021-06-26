@@ -27,7 +27,7 @@ O metadados.csv com todos as especificações das imagems está na pasta metadad
 O EP2 consiste em 2 notebooks, a parte 1 e a parte 2.
 
 ### Parte 1
-Disponível em: [Google Colab - EP2 - Parte 1](https://colab.research.google.com/drive/1X1G9a5AaHx1S3ErFJyoIV2XWsWaFgDCy#scrollTo=Y0szU04OJFhq)
+Disponível em: [Google Colab - EP2 - Parte 1](https://colab.research.google.com/drive/1X1G9a5AaHx1S3ErFJyoIV2XWsWaFgDCy#scrollTo=Y0szU04OJFhq) \
 Nas primeiras células, as funções para geração das imagens que serão salvas nos folders originalGrayDataset, augmentedDataSet e normalizedDataset são declaradas. Em seguida, o metadados do EP1 é carregado. 
 A descrição das funções segue abaixo. 
 OBS.: run_all = True, roda todas as 3 funções da célula, caso run_all = False, não roda, esse declaração serve como uma trava. Para rodar determinada função, run=True, cc, run=False
@@ -38,7 +38,7 @@ Logo após a criação das imagens, os novos metadados são carregados e cruzado
 A célula final contém os plots das imagens filtradas.
 
 ### Parte 2
-Disponível em: [Google Colab - EP2 - Parte 2](https://colab.research.google.com/drive/1X1G9a5AaHx1S3ErFJyoIV2XWsWaFgDCy#scrollTo=Y0szU04OJFhq)
+Disponível em: [Google Colab - EP2 - Parte 2](https://colab.research.google.com/drive/1X1G9a5AaHx1S3ErFJyoIV2XWsWaFgDCy#scrollTo=Y0szU04OJFhq) /
 Nas primeiras células, as funções para geração das imagens do protótipo da média e dos histogramas são declaradas.
 A descrição das funções segue abaixo. 
 OBS.: Para rodar determinada função, run=True, cc, run=False
