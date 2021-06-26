@@ -43,11 +43,7 @@ OBS.: Para rodar determinada função, run=True, cc, run=False
 * create_img_proto - cria todas os protótipos médios das imagens nos folders originalGrayDataset, augmentedDataSet e normalizedDataset, não salva
 * plot_img_proto - plota os protótipos médios. Como as imagens não são salvas, create_img_proto e plot_img_proto devem ser executadas juntas
 * mean_histogram - gera os valores dos histogramas médios por classe
-* plot_mean_histogram - plota os histogramas
-Logo após a criação das imagens, os novos metadados são carregados e cruzados com o metadados principal (EP1). 
-A célula final contém os plots das imagens filtradas.
-
-
+* plot_mean_histogram - plota os histogramas. Cada folder será plotado sequencialmente para cada uma das classes
 
 # EP3
 
