@@ -8,7 +8,7 @@ Repositório para o código e documentação do projeto da disciplina MAC5768 - 
 - [Google Drive](https://drive.google.com/drive/folders/1h32IZ0kYQigYiCt4KmdtZNXUOOX8Rd3D?usp=sharing)
 - [Google Colab - EP1](https://colab.research.google.com/drive/1bKeuS6A_Wby7FViM4tVIsU6HrG-0nFqZ#scrollTo=ky7hClV8Ge7u)
 - [Google Colab - EP2 - Parte 1](https://colab.research.google.com/drive/1X1G9a5AaHx1S3ErFJyoIV2XWsWaFgDCy#scrollTo=Y0szU04OJFhq)
-- [Google Colab - EP2 - Parte 2](https://colab.research.google.com/drive/1X1G9a5AaHx1S3ErFJyoIV2XWsWaFgDCy#scrollTo=Y0szU04OJFhq)
+- [Google Colab - EP2 - Parte 2](https://colab.research.google.com/drive/1mPdZH9skkzVt6Pf40GG7wKW-VN8NDKLp)
 
 # Grupo
 
@@ -40,7 +40,7 @@ Logo após a criação das imagens, os novos metadados são carregados e cruzado
 A célula final contém os plots das imagens filtradas.
 
 ### Parte 2
-Disponível em: [Google Colab - EP2 - Parte 2](https://colab.research.google.com/drive/1X1G9a5AaHx1S3ErFJyoIV2XWsWaFgDCy#scrollTo=Y0szU04OJFhq) \
+Disponível em: [Google Colab - EP2 - Parte 2](https://colab.research.google.com/drive/1mPdZH9skkzVt6Pf40GG7wKW-VN8NDKLp) \
 Nas primeiras células, as funções para geração das imagens do protótipo da média e dos histogramas são declaradas.
 A descrição das funções segue abaixo. 
 OBS.: Para rodar determinada função, run=True, cc, run=False
