@@ -38,7 +38,7 @@ Logo após a criação das imagens, os novos metadados são carregados e cruzado
 A célula final contém os plots das imagens filtradas.
 
 ### Parte 2
-Disponível em: [Google Colab - EP2 - Parte 2](https://colab.research.google.com/drive/1X1G9a5AaHx1S3ErFJyoIV2XWsWaFgDCy#scrollTo=Y0szU04OJFhq) /
+Disponível em: [Google Colab - EP2 - Parte 2](https://colab.research.google.com/drive/1X1G9a5AaHx1S3ErFJyoIV2XWsWaFgDCy#scrollTo=Y0szU04OJFhq) \
 Nas primeiras células, as funções para geração das imagens do protótipo da média e dos histogramas são declaradas.
 A descrição das funções segue abaixo. 
 OBS.: Para rodar determinada função, run=True, cc, run=False
