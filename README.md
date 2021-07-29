@@ -56,7 +56,7 @@ OBS.: Para rodar determinada função, run=True, cc, run=False
 
 O EP3 consiste em 2 notebooks, a parte 1, que contempla a segmentação e a parte 2, contendo o classificador.
 
-### Parte 1
+### Parte 1 - Segmentação
 Disponível em: [Google Colab - EP3 - Parte 1](https://colab.research.google.com/drive/1Q7CY2VvFn8rJn_u0IQgGuaKb7gStBgvl#scrollTo=mrSdbALrRlS8) \
 Conforme sugerido pelo professor em aula, 15% das imagens em originalGrayDataset foram segmentadas manualmente com a ferramenta [Label Studio](https://labelstud.io/), o template utilizado foi o Polygon Labels, que consiste em salvar todos os pontos designados manualmente ao indicar as bordas da imagem em um arquivo .csv.
 Esse arquivo foi salvo no drive como groundTruth/groundtruth_full.csv. 
@@ -70,7 +70,7 @@ Para a segmentação automática, os pontos advindos dos polígonos foram reesca
 
 Por último, todas as imagens geradas nos eps foram segmentadas automaticamente com a função sobel_watershed.
 
-### Parte 2
+### Parte 2 - Classificação
 Disponível em: [Google Colab - EP3 - Parte 2](https://colab.research.google.com/drive/1ZaND9uQSQ-WWpzBKnebL-2tJVHa_DLq0#scrollTo=PGh2FC9ltqrF) \
 Após salvar as imagens segmentadas na parte 1, a parte 2 consiste em ler as imagens segmentadas e salvas como .joblib, transformar array de dimensão M x N em (M x N) x 1.
 
