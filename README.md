@@ -72,10 +72,14 @@ Por último, todas as imagens geradas nos eps foram segmentadas automaticamente 
 
 ### Parte 2
 Disponível em: [Google Colab - EP3 - Parte 2](https://colab.research.google.com/drive/1ZaND9uQSQ-WWpzBKnebL-2tJVHa_DLq0#scrollTo=PGh2FC9ltqrF) \
-Nas primeiras células, as funções para geração das imagens do protótipo da média e dos histogramas são declaradas.
-A descrição das funções segue abaixo. 
-OBS.: Para rodar determinada função, run=True, cc, run=False
-* create_img_proto - cria todas os protótipos médios das imagens nos folders originalGrayDataset, augmentedDataSet e normalizedDataset, não salva
-* plot_img_proto - plota os protótipos médios. Como as imagens não são salvas, create_img_proto e plot_img_proto devem ser executadas juntas
-* mean_histogram - gera os valores dos histogramas médios por classe
-* plot_mean_histogram - plota os histogramas. Cada folder será plotado sequencialmente para cada uma das classes
+Após salvar as imagens segmentadas na parte 1, a parte 2 consiste em ler as imagens segmentadas e salvas como .joblib, transformar array de dimensão M x N em (M x N) x 1.
+
+Os dados foram separados em treino e teste. 
+
+Por se tratar de imagens, os dados possuem alta dimensionalidade, para contornar esse problema, a técnica PCA (principal component analysis) foi utilizada de modo que a dimensão caiu para 50 componentes.  
+
+Conforme sugerido pelo professor, o método utilizado para classificação foi o SVM (support vector machine) com os melhores hiperparâmetros selecionados por gridSearchCV:
+* kernel: "linear", "rbf"
+* C: 1, 1e-2, 5
+
+Os resultados foram satisfatórios, o f1-score geral acima de 70% indica resultado maior que o palpite aleatório. A colher obteve o menor f1-score, esse fato deve ter ocorrido porque uma das colheres tinha um tamanho bem maior do que a média entre elas.
