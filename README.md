@@ -9,6 +9,8 @@ Repositório para o código e documentação do projeto da disciplina MAC5768 - 
 - [Google Colab - EP1](https://colab.research.google.com/drive/1bKeuS6A_Wby7FViM4tVIsU6HrG-0nFqZ#scrollTo=ky7hClV8Ge7u)
 - [Google Colab - EP2 - Parte 1](https://colab.research.google.com/drive/1X1G9a5AaHx1S3ErFJyoIV2XWsWaFgDCy#scrollTo=Y0szU04OJFhq)
 - [Google Colab - EP2 - Parte 2](https://colab.research.google.com/drive/1mPdZH9skkzVt6Pf40GG7wKW-VN8NDKLp)
+- [Google Colab - EP3 - Parte 1](add)
+- [Google Colab - EP3 - Parte 2](add)
 
 # Grupo
 
@@ -52,4 +54,24 @@ OBS.: Para rodar determinada função, run=True, cc, run=False
 
 # EP3
 
-TBD
+O EP3 consiste em 2 notebooks, a parte 1, que contempla a segmentação e a parte 2, contendo o classificador.
+
+### Parte 1
+Disponível em: [Google Colab - EP3 - Parte 1](add) \
+Conforme sugerido pelo professor em aula, 15% das imagens em originalGrayDataset foram segmentadas manualmente com a ferramenta [Label Studio](https://labelstud.io/), o template utilizado foi o Polygon Labels, que consiste em salvar todos os pontos designados manualmente ao indicar as bordas da imagem em um arquivo .csv.
+Esse arquivo foi salvo no drive como groundTruth/groundtruth_full.csv. 
+Para separar objeto e fundo, duas opções de funções foram testadas:
+- thresholding_binarization: essa função utiliza o threshold_otsu para encontrar o melhor threshold que marca os pixels como pretos ou brancos a partir da intensidade
+- sobel_watershed: essa função utiliza o filtro de sobel com watershed, que consiste em encontrar a borda a partir das derivadas da intensidade dos pixels
+Como o sobel_watershed obteve acurácia superior ao mensurar a técnica nas imagens segmentadas manualmente, essa técnica foi a escolhida para a segmentação automática.
+
+
+### Parte 2
+Disponível em: [Google Colab - EP3 - Parte 2](add) \
+Nas primeiras células, as funções para geração das imagens do protótipo da média e dos histogramas são declaradas.
+A descrição das funções segue abaixo. 
+OBS.: Para rodar determinada função, run=True, cc, run=False
+* create_img_proto - cria todas os protótipos médios das imagens nos folders originalGrayDataset, augmentedDataSet e normalizedDataset, não salva
+* plot_img_proto - plota os protótipos médios. Como as imagens não são salvas, create_img_proto e plot_img_proto devem ser executadas juntas
+* mean_histogram - gera os valores dos histogramas médios por classe
+* plot_mean_histogram - plota os histogramas. Cada folder será plotado sequencialmente para cada uma das classes
