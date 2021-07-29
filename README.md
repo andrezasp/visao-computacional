@@ -9,8 +9,8 @@ Repositório para o código e documentação do projeto da disciplina MAC5768 - 
 - [Google Colab - EP1](https://colab.research.google.com/drive/1bKeuS6A_Wby7FViM4tVIsU6HrG-0nFqZ#scrollTo=ky7hClV8Ge7u)
 - [Google Colab - EP2 - Parte 1](https://colab.research.google.com/drive/1X1G9a5AaHx1S3ErFJyoIV2XWsWaFgDCy#scrollTo=Y0szU04OJFhq)
 - [Google Colab - EP2 - Parte 2](https://colab.research.google.com/drive/1mPdZH9skkzVt6Pf40GG7wKW-VN8NDKLp)
-- [Google Colab - EP3 - Parte 1](add)
-- [Google Colab - EP3 - Parte 2](add)
+- [Google Colab - EP3 - Parte 1](https://colab.research.google.com/drive/1Q7CY2VvFn8rJn_u0IQgGuaKb7gStBgvl#scrollTo=mrSdbALrRlS8)
+- [Google Colab - EP3 - Parte 2](https://colab.research.google.com/drive/1ZaND9uQSQ-WWpzBKnebL-2tJVHa_DLq0#scrollTo=PGh2FC9ltqrF)
 
 # Grupo
 
@@ -57,7 +57,7 @@ OBS.: Para rodar determinada função, run=True, cc, run=False
 O EP3 consiste em 2 notebooks, a parte 1, que contempla a segmentação e a parte 2, contendo o classificador.
 
 ### Parte 1
-Disponível em: [Google Colab - EP3 - Parte 1](add) \
+Disponível em: [Google Colab - EP3 - Parte 1](https://colab.research.google.com/drive/1Q7CY2VvFn8rJn_u0IQgGuaKb7gStBgvl#scrollTo=mrSdbALrRlS8) \
 Conforme sugerido pelo professor em aula, 15% das imagens em originalGrayDataset foram segmentadas manualmente com a ferramenta [Label Studio](https://labelstud.io/), o template utilizado foi o Polygon Labels, que consiste em salvar todos os pontos designados manualmente ao indicar as bordas da imagem em um arquivo .csv.
 Esse arquivo foi salvo no drive como groundTruth/groundtruth_full.csv. 
 Para separar objeto e fundo, duas opções de funções foram testadas:
@@ -71,7 +71,7 @@ Para a segmentação automática, os pontos advindos dos polígonos foram reesca
 Por último, todas as imagens geradas nos eps foram segmentadas automaticamente com a função sobel_watershed.
 
 ### Parte 2
-Disponível em: [Google Colab - EP3 - Parte 2](add) \
+Disponível em: [Google Colab - EP3 - Parte 2](https://colab.research.google.com/drive/1ZaND9uQSQ-WWpzBKnebL-2tJVHa_DLq0#scrollTo=PGh2FC9ltqrF) \
 Nas primeiras células, as funções para geração das imagens do protótipo da média e dos histogramas são declaradas.
 A descrição das funções segue abaixo. 
 OBS.: Para rodar determinada função, run=True, cc, run=False
