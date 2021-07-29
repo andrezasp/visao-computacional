@@ -82,4 +82,4 @@ Conforme sugerido pelo professor, o método utilizado para classificação foi o
 * kernel: "linear", "rbf"
 * C: 1, 1e-2, 5
 
-Os resultados foram satisfatórios, o f1-score geral acima de 70% indica resultado maior que o palpite aleatório. A colher obteve o menor f1-score, esse fato deve ter ocorrido porque uma das colheres tinha um tamanho bem maior do que a média entre elas.
+Os resultados foram satisfatórios, o f1-score geral acima de 70% indica resultado maior que o palpite aleatório. A colher obteve o menor f1-score, esse fato pode ter ocorrido porque uma das colheres tinha um tamanho bem maior do que a média entre elas.
