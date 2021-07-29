@@ -62,7 +62,7 @@ Conforme sugerido pelo professor em aula, 15% das imagens em originalGrayDataset
 Esse arquivo foi salvo no drive como groundTruth/groundtruth_full.csv. 
 Para separar objeto e fundo, duas opções de funções foram testadas:
 * thresholding_binarization: essa função utiliza o threshold_otsu para encontrar o melhor threshold que marca os pixels como pretos ou brancos a partir da intensidade
-* sobel_watershed: essa função utiliza o filtro de sobel com watershed, que consiste em encontrar a borda a partir das derivadas da intensidade dos pixels
+* sobel_watershed: uma combinação do filtro de Sobel com o algoritmo Watershed para segmentação. Segue [referência](https://scikit-image.org/docs/0.12.x/auto_examples/xx_applications/plot_coins_segmentation.html).
 
 Como o sobel_watershed obteve acurácia média superior ao mensurar a técnica nas imagens segmentadas manualmente, 80% contra 62%, essa técnica foi a escolhida para a segmentação automática. Essa função retorna o Blob, conforme solicitado no enunciado do ep.
 
