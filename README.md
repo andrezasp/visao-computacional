@@ -65,7 +65,9 @@ Para separar objeto e fundo, duas opções de funções foram testadas:
 * sobel_watershed: essa função utiliza o filtro de sobel com watershed, que consiste em encontrar a borda a partir das derivadas da intensidade dos pixels
 
 Como o sobel_watershed obteve acurácia média superior ao mensurar a técnica nas imagens segmentadas manualmente, 80% contra 62%, essa técnica foi a escolhida para a segmentação automática.
-Para a segmentação automática, os pontos advindos dos polígonos foram reescalados conforme as imagens. A função make_target cria uma array separando o que é objeto, pixel = 1, do que é fundo, pixel = 0. Já a compute_accuracy, calcula a acurácia da segmentação automática das imagens que foram segmentadas manualmente (15% do total).
+
+Para a segmentação automática, os pontos advindos dos polígonos foram reescalados conforme as imagens, função rescale_points. A função make_target cria uma array separando o que é objeto, pixel = 1, do que é fundo, pixel = 0. Já a compute_accuracy, calcula a acurácia da segmentação automática das imagens que foram segmentadas manualmente (15% do total).
+
 Por último, todas as imagens geradas nos eps foram segmentadas automaticamente com a função sobel_watershed.
 
 ### Parte 2
